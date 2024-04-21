@@ -24,7 +24,7 @@ namespace FrostChecker
         }
 
         [Function("FrostChecker")]
-        public async Task Run([TimerTrigger("0 16 20 * * *")] TimerInfo myTimer)
+        public async Task Run([TimerTrigger("0 8 5 * * *")] TimerInfo myTimer)
         {
             //log.LogInformation("Requesting frost data.");
 
